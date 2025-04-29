@@ -215,7 +215,8 @@ def sign(cookie):
         print("请先设置Cookie")
         return "no_cookie", ""
         
-    url = f"https://www.nodeseek.com/api/attendance?random={NS_RANDOM}"
+    #url = f"https://www.nodeseek.com/api/attendance?random={NS_RANDOM}"
+    url = f"https://www.nodeseek.com/api/attendance?random=false"
     headers = {
         'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0",
         'origin': "https://www.nodeseek.com",
